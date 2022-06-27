@@ -1,0 +1,116 @@
+{
+    "items": [
+        {
+            "sys": {
+                "id": "1"
+            },
+            "fields": {
+                "title": "Python programming Master course",
+                "price": 123.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "images/python.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "2"
+            },
+            "fields": {
+                "title": "Java Master course",
+                "price": 103.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "images/java.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "3"
+            },
+            "fields": {
+                "title": "Web development for business",
+                "price": 150.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "images/web.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "4"
+            },
+            "fields": {
+                "title": "javascript programming Master course",
+                "price": 200.00,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "images/javascript.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "5"
+            },
+            "fields": {
+                "title": "Digital marketing",
+                "price": 99.00,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "images/marketing.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "7"
+            },
+            "fields": {
+                "title": "Data structures and algorithms full course",
+                "price": 600.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "images/data_structures.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "8"
+            },
+            "fields": {
+                "title": "Data science full course",
+                "price": 903.99,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "images/data_science.png"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
