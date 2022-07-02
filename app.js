@@ -14,6 +14,9 @@ const cartContent = document.querySelector(".cart-content")
 let Cart = [];
 let buttonsDom = [];
 
+/*
+    Function to open the cart menu sidebar
+*/
 cart.addEventListener("click", function () {
     cartSideBar.style.transform = "translate(0%)"
     const bodyOverlay = document.createElement("div")
@@ -23,8 +26,21 @@ cart.addEventListener("click", function () {
     }, 300)
 })
 
+
+/**
+ *  Function to close de cart menu sidebar
+ */
 closeCart.addEventListener("click", function () {
     cartSideBar.style.transform = "translate(100%)"
     const bodyOverlay = document.querySelector(".overlay")
     document.querySelector("body").removeChild(bodyOverlay)
+})
+
+burger.addEventListener("click", function () {
+    menuSidebar.style.transform = "translate(0%)"
+
+})
+
+closeMenu.addEventListener("click", function () {
+    menuSidebar.style.transform = "translate(-100%)"
 })
